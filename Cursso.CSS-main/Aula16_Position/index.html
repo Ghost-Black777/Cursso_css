@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .container {
+            position: relative;
+            background-color: blue;
+            width: 100%;
+            height: 400px;
+        }
+
+        .div1 {
+            position: relative;
+            /*Posição relativa: serve para mover um elemento levemente sem tirar ele do fluxo da página.*/
+            left: 40px;
+            z-index: 2;
+            width: 30%;
+            height: 100px;
+            background-color: yellow;
+            display: inline-block;
+        }
+
+        .div2 {
+            position: sticky;
+            /*faz o elemento “grudar” na tela quando você rola a página. acompanha ate fimcontainer pai*/
+            z-index: 3;
+            width: 30%;
+            height: 100px;
+            background-color: white;
+            display: inline-block;
+        }
+
+        .div3 {
+            position: absolute;
+            /*deslocamento dentro do container do pai quando tem position */
+            top: 200px;
+            right: 50%;
+            width: 30%;
+            height: 100px;
+            background-color: red;
+            display: inline-block;
+        }
+
+        .whats {
+            background-color: green;
+            color: wheat;
+            width: 80px;
+            height: 80px;
+            position: fixed;
+            /*Fixed posição relativo a tela*/
+            bottom: 10px;
+            right: 10px;
+
+        }
+
+        /* =========================
+   POSITION NO CSS - RESUMO
+   ========================= */
+
+        /* static (padrão)
+   - comportamento normal
+   - não aceita top/left/right/bottom
+   - fica no fluxo da página
+*/
+
+        /* relative
+   - continua no fluxo
+   - pode ser deslocado com top/left/etc
+   - mantém espaço original
+   - base para position absolute
+*/
+
+        /* absolute
+   - sai do fluxo da página
+   - se posiciona relativo ao pai com position definido
+   - usa top/left/etc livremente
+*/
+
+        /* fixed
+   - sai do fluxo
+   - fica fixo na tela (viewport)
+   - não se move com scroll
+*/
+
+        /* sticky
+   - começa como relative
+   - vira fixed ao chegar no limite (ex: top: 0)
+   - gruda na tela durante o scroll
+*/
+    </style>
+</head>
+
+<body>
+    <h1>Meu primeiro site em CSS</h1>
+    <div class="container">
+        <div class="div1">Primeira Div</div>
+        <div class="div2">Segunda Div</div>
+        <div class="div3">Terceira Div</div>
+    </div>
+
+    <div class="whats">whats</div>
+</body>
+
+</html>

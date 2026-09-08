@@ -1,0 +1,29 @@
+*{
+    padding: 30px;
+}
+
+body{
+    background: rgb(235, 235, 235);
+}
+
+h1, p{
+    color: red;
+    text-align: center;
+}
+
+.center{
+    text-align: center;
+}
+
+.azul{
+    color: rgb(98, 66, 139);
+}
+
+.fonte-30{
+    font-size: 30;
+}
+
+#teste{
+    color: blue;
+    background: yellow;
+}

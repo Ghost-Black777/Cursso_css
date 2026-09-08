@@ -1,0 +1,11 @@
+p{
+    text-align: center;
+    text-decoration: overline;
+    text-transform: uppercase;
+    text-indent: 50px; /*Recua a primeira linha efeito paragrafo*/
+    letter-spacing: 5px; /*Espaço entre as letras*/
+
+    word-spacing: 15px; /*Espaçamento entre palavras*/
+
+    
+}

@@ -1,0 +1,7 @@
+.teste{
+    width: 300 px; /*largura*/
+    height: 250 px; /*altura*/
+    background-color: aqua;
+
+    /*max-width: ; define tamanho maximo e que se adapta ao tamanho da tela*/
+}

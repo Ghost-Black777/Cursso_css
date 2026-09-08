@@ -1,0 +1,16 @@
+body{
+    background-color: blue;
+}
+
+.exemplo_back{
+    height: 300px;
+    background-size: cover;
+    /*cover nao repete e tenta adptar para o tamanho ja o contain repete*/
+
+    background-repeat: no-repeat;
+    background-position: center;
+    /*position mostra posição da imagem*/
+
+    background: gray url(https://images.pexels.com/photos/25748967/pexels-photo-25748967.jpeg);
+    
+}

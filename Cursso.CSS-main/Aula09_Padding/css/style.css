@@ -1,0 +1,11 @@
+h1{
+    border: 2px solid black;
+    background-color: red;
+    text-align: center;
+    margin: 50px 100px;
+    /*margin: 30px 70px 150px 20px;*/
+
+    padding: 10px;
+
+    /*Margin da espaço fora do elemento ja o padding da espaço dentro do elemento*/
+}

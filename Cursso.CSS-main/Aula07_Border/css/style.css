@@ -1,0 +1,19 @@
+h1{
+    color: blue;
+    border: 1px solid black;
+    /*
+    tipo de borda
+    solid - solida
+    dotted - pontos
+    dashed - traços
+    double - duas bordas
+    groove - 3D
+    ridge 
+    inset - por dentro
+    outset - por fora
+    hidden - oculta
+    none - nehuma
+    */
+
+    border-radius: 10px;
+}
