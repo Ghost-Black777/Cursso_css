@@ -1,0 +1,224 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #090909;
+    color: white;
+}
+
+.navbar {
+    height: 80px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 0 5%;
+    background: #0d0d0d;
+    border-bottom: 1px solid #222;
+}
+
+.logo {
+    flex: 20%;
+}
+
+.logo h1 {
+    font-size: 32px;
+    letter-spacing: 2px;
+}
+
+.menu {
+    flex: 70%;
+    text-align: right;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 17px;
+}
+
+.menu a:hover {
+    color: #ff3333;
+}
+
+#botao {
+    background: #e60000;
+    padding: 12px 25px;
+    border-radius: 25px;
+}
+
+#botao:hover {
+    color: white;
+    background: #ff3333;
+}
+
+.header {
+    min-height: 600px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 70px 5%;
+    background: radial-gradient(circle at 80% 50%, #5a0000 0%, #090909 45%);
+}
+
+.headline {
+    flex: 40%;
+}
+
+.headline h2 {
+    font-size: 30px;
+    letter-spacing: 8px;
+}
+
+.headline .titulo {
+    font-size: 82px;
+    letter-spacing: 2px;
+    margin: 10px 0 25px;
+}
+
+.headline p {
+    max-width: 600px;
+    line-height: 1.7;
+    font-size: 18px;
+    color: #d1d1d1;
+}
+
+.contact-btn {
+    display: inline-block;
+    margin-top: 30px;
+    background: #e60000;
+    color: white;
+    text-decoration: none;
+    padding: 18px 35px;
+    border-radius: 30px;
+    font-weight: bold;
+}
+
+.contact-btn:hover {
+    background: #ff3333;
+    transform: scale(1.03);
+}
+
+.img-headline {
+    flex: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.disco {
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 150px;
+    background: repeating-radial-gradient(circle, #151515 0 8px, #050505 9px 15px);
+    box-shadow: 0 0 70px #e60000;
+    transform: rotate(-12deg);
+}
+
+section {
+    padding: 70px 5%;
+}
+
+section > h2 {
+    text-align: center;
+    font-size: 38px;
+    margin-bottom: 45px;
+}
+
+.sobre {
+    text-align: center;
+    background: #101010;
+}
+
+.sobre p {
+    max-width: 750px;
+    margin: auto;
+    color: #bbb;
+    line-height: 1.7;
+    font-size: 18px;
+}
+
+.servicos {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 30%;
+    min-width: 280px;
+    padding: 35px;
+    background: #111;
+    border: 1px solid #292929;
+    border-radius: 20px;
+    transition: .3s;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    border-color: #e60000;
+    box-shadow: 0 10px 40px rgba(230, 0, 0, .25);
+}
+
+.icone {
+    font-size: 55px;
+    margin-bottom: 20px;
+}
+
+.card h3 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.card p {
+    color: #bbb;
+    line-height: 1.6;
+}
+
+.texto-oculto {
+    display: none;
+}
+
+.contato {
+    text-align: center;
+    background: linear-gradient(135deg, #330000, #090909);
+}
+
+.contato p {
+    color: #ccc;
+}
+
+footer {
+    padding: 45px 5%;
+    text-align: center;
+    background: #050505;
+}
+
+.logo-rodape h1 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.logo-rodape p {
+    color: #aaa;
+    margin-bottom: 25px;
+}
+
+footer b {
+    color: #777;
+}
